@@ -5,7 +5,7 @@ const phrases = [
   "Full-Stack Developer",
   "Cyber Security Enthusiast",
   "React Developer",
-  "Problem Solver",
+  "Maximum Effort Coder",
 ];
 
 const HeroSection = () => {
@@ -42,7 +42,7 @@ const HeroSection = () => {
           transition={{ delay: 0.3 }}
           className="font-body text-sm md:text-base tracking-[0.3em] uppercase text-muted-foreground mb-4"
         >
-          I am the Symbiote...
+          Maximum Effort...
         </motion.p>
 
         <motion.h1
@@ -52,7 +52,7 @@ const HeroSection = () => {
           className="font-display text-4xl md:text-7xl lg:text-8xl font-black tracking-tight mb-6"
         >
           I am{" "}
-          <span className="venom-text-gradient">GUNTHA SANTH RAJ</span>
+          <span className="dp-text-gradient">GUNTHA SANTH RAJ</span>
         </motion.h1>
 
         <motion.div
@@ -75,7 +75,7 @@ const HeroSection = () => {
         >
           <button
             onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-body font-semibold tracking-wider uppercase text-sm hover:shadow-[0_0_30px_hsl(220_80%_55%/0.4)] transition-all duration-300"
+            className="px-8 py-3 rounded-lg bg-primary text-primary-foreground font-body font-semibold tracking-wider uppercase text-sm hover:shadow-[0_0_30px_hsl(0_80%_50%/0.4)] transition-all duration-300"
           >
             View Projects
           </button>

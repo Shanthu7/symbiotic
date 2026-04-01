@@ -52,12 +52,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        venom: {
-          glow: "hsl(var(--venom-glow))",
-          tendril: "hsl(var(--venom-tendril))",
-          surface: "hsl(var(--venom-surface))",
-          "surface-light": "hsl(var(--venom-surface-light))",
-          "text-dim": "hsl(var(--venom-text-dim))",
+        dp: {
+          glow: "hsl(var(--dp-glow))",
+          accent: "hsl(var(--dp-accent))",
+          surface: "hsl(var(--dp-surface))",
+          "surface-light": "hsl(var(--dp-surface-light))",
+          "text-dim": "hsl(var(--dp-text-dim))",
         },
       },
       borderRadius: {
@@ -81,8 +81,8 @@ export default {
           "75%": { transform: "translate(50px, 30px) scale(1.05)" },
         },
         "glow-pulse": {
-          "0%, 100%": { boxShadow: "0 0 20px hsl(220 80% 55% / 0.1)" },
-          "50%": { boxShadow: "0 0 40px hsl(220 80% 55% / 0.3)" },
+          "0%, 100%": { boxShadow: "0 0 20px hsl(0 80% 50% / 0.1)" },
+          "50%": { boxShadow: "0 0 40px hsl(0 80% 50% / 0.3)" },
         },
         "tendril-wave": {
           "0%, 100%": { transform: "scaleX(1) scaleY(1)" },

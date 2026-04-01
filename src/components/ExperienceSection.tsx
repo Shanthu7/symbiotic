@@ -58,7 +58,7 @@ const ExperienceSection = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-2">
-            Evolution <span className="venom-text-gradient">Timeline</span>
+            Origin <span className="dp-text-gradient">Story</span>
           </h2>
           <div className="w-20 h-1 bg-primary rounded-full mx-auto mb-4" />
         </motion.div>
@@ -82,10 +82,10 @@ const ExperienceSection = () => {
                 } flex-row`}
               >
                 {/* Dot */}
-                <div className="absolute left-6 md:left-1/2 w-3 h-3 rounded-full bg-primary -translate-x-1.5 mt-2 z-10 shadow-[0_0_10px_hsl(220_80%_55%/0.5)]" />
+                <div className="absolute left-6 md:left-1/2 w-3 h-3 rounded-full bg-primary -translate-x-1.5 mt-2 z-10 shadow-[0_0_10px_hsl(0_80%_50%/0.5)]" />
 
                 <div className={`ml-14 md:ml-0 md:w-1/2 ${isLeft ? "md:pr-12 md:text-right" : "md:pl-12"}`}>
-                  <div className="venom-card p-5">
+                  <div className="dp-card p-5">
                     <div className={`flex items-center gap-2 mb-2 ${isLeft ? "md:justify-end" : ""}`}>
                       <Icon size={16} className="text-primary" />
                       <span className="font-body text-xs uppercase tracking-widest text-primary">{item.period}</span>
@@ -118,7 +118,7 @@ const ExperienceSection = () => {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={inView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ delay: 0.7 + i * 0.1 }}
-                className="venom-card p-4 flex items-center gap-3"
+                className="dp-card p-4 flex items-center gap-3"
               >
                 <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
                 <span className="font-body text-sm text-secondary-foreground">{cert}</span>

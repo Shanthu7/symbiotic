@@ -19,7 +19,7 @@ const SymbioteBackground = () => (
           height: b.size,
           left: b.x,
           top: b.y,
-          background: `radial-gradient(circle, hsl(220 80% 55% / 0.06), transparent 70%)`,
+          background: `radial-gradient(circle, hsl(0 80% 50% / 0.06), transparent 70%)`,
           filter: "blur(60px)",
         }}
         animate={{

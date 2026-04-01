@@ -22,10 +22,10 @@ const ContactSection = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-2">
-            Summon <span className="venom-text-gradient">Me</span>
+            Hit <span className="dp-text-gradient">Me Up</span>
           </h2>
           <div className="w-20 h-1 bg-primary rounded-full mx-auto mb-4" />
-          <p className="font-body text-muted-foreground">Let's bond and create something extraordinary</p>
+          <p className="font-body text-muted-foreground">Let's team up and build something awesome</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
@@ -53,7 +53,7 @@ const ContactSection = () => {
                 >
                   <Wrapper
                     {...(item.href ? { href: item.href, target: "_blank", rel: "noopener noreferrer" } : {})}
-                    className="flex items-center gap-4 venom-card p-4 group hover:border-primary/40 transition-all duration-300"
+                    className="flex items-center gap-4 dp-card p-4 group hover:border-primary/40 transition-all duration-300"
                   >
                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                       <Icon size={18} className="text-primary" />
@@ -82,7 +82,7 @@ const ContactSection = () => {
               required
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
-              className="w-full venom-input"
+              className="w-full dp-input"
             />
             <input
               type="email"
@@ -90,7 +90,7 @@ const ContactSection = () => {
               required
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
-              className="w-full venom-input"
+              className="w-full dp-input"
             />
             <textarea
               placeholder="Your Message"
@@ -98,11 +98,11 @@ const ContactSection = () => {
               rows={5}
               value={form.message}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
-              className="w-full venom-input resize-none"
+              className="w-full dp-input resize-none"
             />
             <button
               type="submit"
-              className="w-full py-3 rounded-lg bg-primary text-primary-foreground font-body font-semibold tracking-wider uppercase text-sm flex items-center justify-center gap-2 hover:shadow-[0_0_30px_hsl(220_80%_55%/0.4)] transition-all duration-300"
+              className="w-full py-3 rounded-lg bg-primary text-primary-foreground font-body font-semibold tracking-wider uppercase text-sm flex items-center justify-center gap-2 hover:shadow-[0_0_30px_hsl(0_80%_50%/0.4)] transition-all duration-300"
             >
               <Send size={16} />
               Send Message
@@ -114,7 +114,7 @@ const ContactSection = () => {
       {/* Footer */}
       <div className="container mx-auto px-6 mt-20 pt-8 border-t border-border text-center">
         <p className="font-body text-sm text-muted-foreground">
-          © 2025 Guntha Santh Raj. Built with the power of the Symbiote.
+          © 2025 Guntha Santh Raj. Built with maximum effort. 💀
         </p>
       </div>
     </section>
