@@ -52,7 +52,7 @@ const HeroSection = () => {
           className="font-display text-4xl md:text-7xl lg:text-8xl font-black tracking-tight mb-6"
         >
           I am{" "}
-          <span className="venom-text-gradient">GUNTHASANTHRAJ</span>
+          <span className="venom-text-gradient">GUNTHA SANTH RAJ</span>
         </motion.h1>
 
         <motion.div

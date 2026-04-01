@@ -28,7 +28,7 @@ const AboutSection = () => {
             className="space-y-5"
           >
             <p className="font-body text-lg text-secondary-foreground leading-relaxed">
-              I'm <span className="text-primary font-semibold">Gunthasanthraj</span>, a B.Tech Computer Science (Cyber Security) student at Madanapalle Institute of Technology & Science with a passion for building impactful web applications and exploring cybersecurity.
+              I'm <span className="text-primary font-semibold">Guntha Santh Raj</span>, a B.Tech Computer Science (Cyber Security) student at Madanapalle Institute of Technology & Science with a passion for building impactful web applications and exploring cybersecurity.
             </p>
             <p className="font-body text-base text-muted-foreground leading-relaxed">
               With hands-on internship experience at G&D Solutions where I developed proficiency in JavaScript, React.js, and AWS, I bring both academic knowledge and real-world skills. I thrive on solving complex problems and creating elegant, functional solutions.

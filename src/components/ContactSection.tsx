@@ -114,7 +114,7 @@ const ContactSection = () => {
       {/* Footer */}
       <div className="container mx-auto px-6 mt-20 pt-8 border-t border-border text-center">
         <p className="font-body text-sm text-muted-foreground">
-          © 2025 Gunthasanthraj. Built with the power of the Symbiote.
+          © 2025 Guntha Santh Raj. Built with the power of the Symbiote.
         </p>
       </div>
     </section>
