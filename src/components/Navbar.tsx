@@ -21,7 +21,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <button onClick={() => scrollTo("hero")} className="font-display text-lg font-bold tracking-wider text-foreground hover:text-primary transition-colors">
-          SHANTH<span className="text-primary">RAJ</span>
+          SANTH<span className="text-primary">RAJ</span>
         </button>
 
         {/* Desktop */}
