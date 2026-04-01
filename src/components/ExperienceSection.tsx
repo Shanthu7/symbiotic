@@ -13,7 +13,7 @@ const timeline = [
   },
   {
     type: "edu",
-    title: "B.Tech CSE (Cyber Security)",
+    title: "B.Tech CSE (Computer Science)",
     org: "Madanapalle Institute of Technology & Science",
     period: "2025 — 2028",
     details: "Currently pursuing with 7.5 CGPA.",
