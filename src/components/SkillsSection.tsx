@@ -31,10 +31,10 @@ const SkillsSection = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-2">
-            The <span className="venom-text-gradient">Symbiote</span> Arsenal
+            The <span className="dp-text-gradient">Merc's</span> Arsenal
           </h2>
           <div className="w-20 h-1 bg-primary rounded-full mx-auto mb-4" />
-          <p className="font-body text-muted-foreground">Technologies I bond with</p>
+          <p className="font-body text-muted-foreground">Weapons of mass development</p>
         </motion.div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
@@ -46,9 +46,9 @@ const SkillsSection = () => {
               transition={{ duration: 0.4, delay: i * 0.05 }}
               onMouseEnter={() => setHovered(skill.name)}
               onMouseLeave={() => setHovered(null)}
-              className="venom-card p-5 text-center relative overflow-hidden group cursor-pointer transition-all duration-300 hover:border-primary/50"
+              className="dp-card p-5 text-center relative overflow-hidden group cursor-pointer transition-all duration-300 hover:border-primary/50"
               style={{
-                boxShadow: hovered === skill.name ? "0 0 25px hsl(220 80% 55% / 0.2)" : "none",
+                boxShadow: hovered === skill.name ? "0 0 25px hsl(0 80% 50% / 0.2)" : "none",
               }}
             >
               {/* Progress ring background */}

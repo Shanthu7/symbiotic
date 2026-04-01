@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Code2 } from "lucide-react";
+import { Code2 } from "lucide-react";
 
 const projects = [
   {
@@ -31,10 +31,10 @@ const ProjectsSection = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-2">
-            Symbiote <span className="venom-text-gradient">Creations</span>
+            Maximum <span className="dp-text-gradient">Effort</span> Projects
           </h2>
           <div className="w-20 h-1 bg-primary rounded-full mx-auto mb-4" />
-          <p className="font-body text-muted-foreground">Projects that came to life</p>
+          <p className="font-body text-muted-foreground">Built with chimichangas & code</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -44,11 +44,11 @@ const ProjectsSection = () => {
               initial={{ opacity: 0, y: 40 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.2 }}
-              className="venom-card p-6 md:p-8 group hover:border-primary/40 transition-all duration-500 relative overflow-hidden"
+              className="dp-card p-6 md:p-8 group hover:border-primary/40 transition-all duration-500 relative overflow-hidden"
             >
               {/* Glow effect on hover */}
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-                style={{ background: "radial-gradient(circle at 50% 50%, hsl(220 80% 55% / 0.05), transparent 70%)" }}
+                style={{ background: "radial-gradient(circle at 50% 50%, hsl(0 80% 50% / 0.05), transparent 70%)" }}
               />
 
               <div className="relative z-10">
